@@ -1,0 +1,40 @@
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.button {
+  background-color: #001B94;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+.button2 {
+  background-color: #fff;
+  border: none;
+  color: #001B94;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.bgimg {
+  background-image: url('/assets/images/bg-home.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+
+}
